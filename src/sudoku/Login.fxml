@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.Login">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="320.0" opacity="0.55">
+         <image>
+            <Image url="@download.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="user" layoutX="88.0" layoutY="54.0" promptText="username" style="-fx-border-color: #FF8000;" />
+      <Button fx:id="register" layoutX="88.0" layoutY="147.0" mnemonicParsing="false" onAction="#Register" style="-fx-border-color: #FF8000;" text="Registar" textAlignment="CENTER" />
+      <Button fx:id="login" layoutX="180.0" layoutY="147.0" mnemonicParsing="false" onAction="#Login" style="-fx-border-color: #FF8000;" text="Login" textAlignment="CENTER" />
+      <Label fx:id="status" layoutX="31.0" layoutY="14.0" textAlignment="CENTER" textFill="#1e02d3" />
+      <PasswordField fx:id="pwd" layoutX="88.0" layoutY="94.0" onAction="#Register" promptText="password" style="-fx-border-color: #FF8000;" />
+   </children>
+</AnchorPane>
